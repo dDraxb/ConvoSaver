@@ -1,0 +1,4 @@
+/.idea/
+/convosaver.egg-info/
+/convosaver/__pycache__
+/tests/__pycache__

@@ -1,0 +1,23 @@
+[project]
+name = "convosaver"
+version = "0.1.0"
+description = "Lightweight conversation persistence for LLM apps."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Topicus"}]
+keywords = ["llm", "chat", "conversation", "persistence", "logging"]
+dependencies = ["sqlalchemy>=2.0", "pymysql>=1.1", "cryptography>=42.0"]
+
+[project.urls]
+Homepage = "https://example.com"
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["convosaver"]
