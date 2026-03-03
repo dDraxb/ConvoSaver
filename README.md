@@ -55,6 +55,20 @@ print(conversation.id, len(conversation.messages))
 docker compose up -d
 ```
 
+## Browser UI (phpMyAdmin)
+
+If you want a browser UI, start phpMyAdmin:
+
+```bash
+docker compose up -d phpmyadmin
+```
+
+Then open `http://localhost:8080` and use:
+
+- Username: `convosaver`
+- Password: `convosaverpass`
+- Database: `convosaver`
+
 ## RBAC Helpers (MySQLStore)
 
 These helpers provide **application-level access control** (not MySQL server roles):

@@ -82,6 +82,20 @@ docker compose up -d
 
 ---
 
+## Browser UI (phpMyAdmin)
+
+```bash
+docker compose up -d phpmyadmin
+```
+
+Then open `http://localhost:8080` and use:
+
+- Username: `convosaver`
+- Password: `convosaverpass`
+- Database: `convosaver`
+
+---
+
 ## RBAC Helpers (MySQLStore)
 
 These helpers manage application-level access control:
